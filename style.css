@@ -1,0 +1,117 @@
+body    
+{    
+background-color: rgba(210, 140, 193, 0.481);    
+}    
+.box    
+{    
+background-color: #16f6beb8;    
+height: 300px;    
+width: 270px;    
+border-radius: 10px;    
+position: relative;    
+top: 80px;    
+left: 40%;    
+}   
+.display    
+{    
+background-color: #cb0c8f80;    
+width: 220px;    
+position: relative;    
+left: 15px;    
+top: 20px;    
+height: 40px;    
+}    
+.display input    
+{    
+position: relative;    
+left: 2px;    
+top: 2px;    
+height: 35px;    
+color: rgb(34, 27, 169);    
+background-color: #55af66;    
+font-size: 21px;    
+text-align: right;    
+}   
+.keys    
+{    
+position: relative;    
+top: 15px;    
+}    
+.button    
+{    
+width: 40px;    
+height: 30px;    
+border: none;    
+border-radius: 8px;    
+margin-left: 17px;    
+cursor: pointer;    
+border-top: 2px solid transparent; 
+color: hsl(237, 80%, 40%);   
+}    
+.button.gray    
+{    
+color: #cb1b36;  
+font-color: rgb(32, 201, 35);    
+background-color:blue;   
+border-bottom: rgb(108, 180, 40) 2px solid;    
+border-top: 2px #d18b13 solid;    
+}  
+.title:hover {  
+   color: #fff;  
+}  
+.title {  
+margin-bottom: 10px;  
+margin-top: 30px;  
+padding: 5px 0;  
+font-size: 40px;  
+font-weight: bold;  
+text-align: center;  
+color: black;  
+font-family: 'Cookie', cursive;  
+}  
+    
+.button.pink    
+{    
+color: rgb(27, 195, 38);    
+background-color: #ff4561;    
+border-bottom: rgb(36, 47, 206) 2px solid;    
+}    
+.button.black    
+{    
+color: rgb(55, 23, 152);    
+background-color: blue;    
+border-bottom: black 2px solid;    
+border-top: 2px 303030 solid;    
+font-weight: bold;  
+}    
+.button.orange    
+{    
+color: black;    
+background-color: blue;  
+border-bottom: black 2px solid;    
+border-top: 2px FF9933 solid;    
+}    
+.gray:active    
+{    
+border-top: black 2px solid;    
+border-bottom: 2px #6f6f6f solid;    
+}    
+.pink:active    
+{    
+border-top:black 2px solid;    
+border-bottom:#ff4561 2px solid;    
+}    
+.black:active    
+{    
+border-top: black 2px solid;    
+border-bottom: #303030 2px solid;    
+}    
+.orange:active    
+{    
+border-top: black 2px solid;    
+border-bottom: FF9933 2px solid;    
+}    
+p    
+{    
+line-height: 10px;    
+}   
